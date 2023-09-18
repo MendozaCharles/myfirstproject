@@ -1,0 +1,174 @@
+h3 {
+  font-size: 30px;
+}
+
+#h3-id-a {
+  color: black;
+}
+
+#h3-id-b {
+  color: black;
+}
+
+#h3-id-c {
+  color: black;
+}
+
+.class-a {
+  font-family: Tahoma;
+}
+
+.class-b {
+  font-family: Tahoma;
+}
+
+.class-c {
+  font-family: Tahoma;
+}
+
+tr p {
+  color: black;
+}
+
+.table-container {
+  background-color: darkred;
+  margin: 20px;
+  padding: 20px;
+}
+
+.styled-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: darkred;
+}
+
+.styled-table td {
+  padding: 10px;
+  font-family: Arial, sans-serif;
+  color: darkred;
+}
+
+.styled-image {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.styled-heading {
+  font-family: Arial, sans-serif;
+  color: darkred;
+}
+
+.styled-paragraph {
+  font-family: Arial, sans-serif;
+  color: darkred;
+}
+
+.styled-em {
+  vertical-align: middle;
+}
+
+.styled-paragraph a {
+  color: darkred;
+  text-decoration: none;
+}
+
+.styled-table tr {
+  margin-bottom: 10px;
+}
+
+.list-container {
+  background-color: darkred;
+  margin: 20px;
+  padding: 20px;
+}
+
+.styled-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.styled-list li {
+  padding: 5px;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+.styled-list li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.outer-table {
+  background-color: darkred;
+  margin: 20px;
+  padding: 20px;
+  display: block;
+  border-collapse: collapse;
+}
+
+.inner-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 10px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+tr {
+  margin-bottom: 10px;
+}
+
+.table-container {
+  background-color: darkred;
+  margin: 20px;
+  padding: 20px;
+}
+
+.styled-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+.styled-table th {
+  background-color: darkred;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.styled-table td {
+  padding: 10px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: darkred;
+}
+
+.styled-table tbody tr {
+  margin-bottom: 10px;
+}
+
+.links-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.styled-link {
+  display: inline-block;
+  padding: 10px 20px;
+  font-family: Arial, sans-serif;
+  color: white;
+  text-decoration: none;
+  background-color: darkred;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.styled-link:hover {
+  background-color: red;
+}

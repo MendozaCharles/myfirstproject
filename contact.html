@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Contact Me</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: darkred;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    h3 {
+      font-size: 30px;
+    }
+
+    a {
+      color: white;
+      text-decoration: none;
+    }
+
+    hr {
+      border: 1px solid white;
+      margin: 20px;
+    }
+
+    form {
+      text-align: left;
+      margin: 0 auto;
+      max-width: 400px;
+    }
+
+    label {
+      font-size: 18px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      font-size: 16px;
+      border: 1px solid white;
+      border-radius: 5px;
+      background-color: darkred;
+      color: white;
+    }
+
+    textarea {
+      height: 150px;
+    }
+
+    input[type="submit"] {
+    background-color: white;
+    color: darkred;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: 2px solid darkred; 
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; 
+  }
+
+  input[type="submit"]:hover {
+    background-color: red; 
+    color: white;
+  }
+
+  .styled-link {
+    display: inline-block;
+    padding: 10px 20px;
+    font-family: Arial, sans-serif;
+    color: darkred;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 5px;
+    margin: 5px;
+    }
+
+    .styled-link:hover {
+      background-color: red;
+    }
+  </style>
+</head>
+<body>
+  <h3>Contact Me</h3>
+  <p><a href="https://www.facebook.com/TheRedBrad" target="_blank">Facebook</a> | <a href="https://www.instagram.com/heloimcharles/" target="_blank">Instagram</a></p>
+  <hr>
+  <form action="mailto:mcd0066@dlsud.edu.ph" method="post" enctype="text/plain">
+    <label>Your Name:</label>
+    <input type="text" name="Your Name:"><br><br>
+    <label>Your Email:</label>
+    <input type="email" name="Your Email:"><br><br>
+    <label>Your Message:</label><br>
+    <textarea name="Your Message:" rows="8" cols="50"></textarea><br>
+    <input type="submit" value="Send">
+  </form>
+  <a href="index.html" class="styled-link">Main Page</a>
+</body>
+</html>
